@@ -1,0 +1,59 @@
+@import './base.scss';
+
+// 白色
+@mixin font-white() {
+  // font-family: @basic-font-family;
+  color: $color-white;
+}
+
+@mixin font-white-title() {
+  color: $color-white;
+  opacity: 0.85;
+}
+
+@mixin font-white-primary() {
+  color: $color-white;
+  opacity: 0.65;
+}
+
+@mixin font-white-secondary() {
+  color: $color-white;
+  opacity: 0.45;
+}
+
+@mixin font-white-disable() {
+  color: $color-white;
+  opacity: 0.3;
+}
+
+// 黑色
+@mixin font-black() {
+  // font-family: @basic-font-family;
+  color: $color-black;
+}
+
+@mixin font-black-title() {
+  color: $color-black;
+  opacity: 0.85;
+}
+
+@mixin font-black-primary() {
+  color: $color-black;
+  opacity: 0.65;
+}
+
+@mixin font-black-secondary() {
+  color: $color-black;
+  opacity: 0.45;
+}
+
+@mixin font-black-disable() {
+  color: $color-black;
+  opacity: 0.3;
+}
+
+// 主题色
+@mixin font-primary() {
+  // font-family: @basic-font-family;
+  color: $color-theme;
+}
